@@ -1,8 +1,10 @@
 // SPDX-License-Identifier: UNLICENSED
+// import changes 
 pragma solidity ^0.8.13;
 
 import "forge-std/Test.sol";
 import "contracts/Counter.sol";
+import "hardhat/console.sol";
 
 contract CounterTest is Test {
 	Counter public counter;
