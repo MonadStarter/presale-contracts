@@ -15,6 +15,7 @@
 - Install the boilerplate project dependencies. \
   Do a check for the latest npm package versions. \
   This will update the versions inside the package.json.
+  This will update the versions. 
 
   ```shell
   npx npm-check-updates -u
